@@ -1,0 +1,120 @@
+
+body {
+    margin: 0px;
+    padding: 70px;
+    padding-top: 200px;
+    background-color: rgb(255, 241, 222);
+}
+.contato {
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.cabecalho {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    text-align: center;
+    background-color: rgb(255, 208, 0);
+    width: 100%;
+    padding: 5px;
+}
+.botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    padding: 5px;
+    gap: 25px;
+}
+.botao {
+    border: none;
+    background-color: rgb(255, 145, 0);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 5px;
+}
+.botao:hover {
+    background-color: #ee7f00;
+}
+.comprar {
+    border: none;
+    background-color: rgb(255, 145, 0);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    height: 50px;
+    width: 100%;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+}
+.comprar:hover {
+    background-color: #ee7f00;
+}
+.caixa {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: auto;
+    height:auto;
+    width: 100ww;
+
+}
+.caixa2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: auto;
+    height:auto;
+    width: 100ww;
+
+}
+.sobre {
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height:auto;
+    width: 450px;
+
+}
+.capa {
+    height: 200px;
+    width: 140px;
+    align-content: center;
+}
+.telefone {
+    height: 200px;
+    width: 200px;
+}
+h2 {
+    text-align: center;
+}
+.produto {
+    background-color: white;
+    border: none;
+    width: auto;
+    margin: 10px;
+}
+.pagina-produto {
+    display: flex; /* Coloca os filhos lado a lado */
+    align-items: center; /* Alinha o texto e a imagem verticalmente no centro */
+    gap: 20px; /* Espaçamento entre a imagem e o texto */
+    height: 450px;
+    width: auto;
+    justify-content: baseline;
+    text-align: justify;
+}
+h1 {
+    text-align: center;
+}
+.alerta {
+    text-align: center;
+    color: red;
+}
